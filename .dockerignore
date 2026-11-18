@@ -1,0 +1,9 @@
+.git
+**/.DS_Store
+.venv
+.quarto
+.Rproj.user
+workshop.html
+index.html
+workshop_files
+data/example_data/derived

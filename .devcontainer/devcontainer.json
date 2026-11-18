@@ -1,0 +1,35 @@
+{
+  "name": "eye-movement-workshop",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "overrideCommand": false,
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/rstudio/project,type=bind",
+  "workspaceFolder": "/home/rstudio/project",
+
+  "forwardPorts": [8787],
+
+  "containerEnv": {
+    "PASSWORD": "workshop",
+    "RETICULATE_PYTHON": "/opt/venv/bin/python"
+  },
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/venv/bin/python",
+        "r.rterm.linux": "/usr/local/bin/R",
+        "r.bracketedPaste": true,
+        "r.plot.view": "Two"
+      },
+      "extensions": [
+        "REditorSupport.r",
+        "ms-python.python",
+        "quarto.quarto"
+      ]
+    }
+  },
+
+  "remoteUser": "root"
+}
