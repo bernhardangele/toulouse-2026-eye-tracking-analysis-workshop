@@ -52,3 +52,31 @@ $presentation-heading-color: #2b3e50;
   table { font-size: 0.75em; margin: 0.4em auto 0; border-collapse: collapse; }
   td, th { padding: 0.1em 0.8em; text-align: right; }
 }
+
+// QR codes on the title slide and closing slide
+.qr-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2.5em;
+  margin-top: 1.4em;
+  &.qr-end { margin-top: 1.2em; }
+}
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 14em;
+  padding: 0.6em 0.8em;
+  border-radius: 0.4em;
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  img { width: 7.5em; height: 7.5em; margin: 0 0 0.35em; border: none; box-shadow: none; }
+  .qr-end & {
+    width: 16em;
+    img { width: 9em; height: 9em; }
+  }
+  .qr-label { font-weight: 700; color: #2b3e50; font-size: 0.7em; line-height: 1.2; }
+  .qr-url { font-size: 0.42em; line-height: 1.3; margin-top: 0.25em; word-break: break-word; }
+}

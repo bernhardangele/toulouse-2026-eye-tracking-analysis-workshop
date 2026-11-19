@@ -1,0 +1,27 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+$endif$
+$for(author)$
+  <p class="author">$author$</p>
+$endfor$
+$for(institute)$
+  <p class="institute">$institute$</p>
+$endfor$
+$if(date)$
+  <p class="date">$date$</p>
+$endif$
+  <div class="qr-row">
+    <div class="qr-card">
+      <img src="assets/qr-slides.svg" alt="QR code for the slides">
+      <div class="qr-label">Slides</div>
+      <div class="qr-url"><a href="https://bernhardangele.github.io/toulouse-2026-eye-tracking-analysis-workshop/#/title-slide">bernhardangele.github.io/toulouse-2026-eye-tracking-analysis-workshop</a></div>
+    </div>
+    <div class="qr-card">
+      <img src="assets/qr-repo.svg" alt="QR code for the GitHub repository">
+      <div class="qr-label">Code &amp; data (GitHub)</div>
+      <div class="qr-url"><a href="https://github.com/bernhardangele/toulouse-2026-eye-tracking-analysis-workshop">github.com/bernhardangele/toulouse-2026-eye-tracking-analysis-workshop</a></div>
+    </div>
+  </div>
+</section>

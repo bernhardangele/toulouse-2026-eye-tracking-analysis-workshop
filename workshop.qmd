@@ -7,6 +7,8 @@ format:
     width: 1280
     height: 720
     theme: [default, assets/custom.scss]
+    template-partials:
+      - assets/title-slide.html
     include-in-header:
       text: |
         <script>window.STEP_NAMES = ["1 log file: your variables", "2 check the design",
@@ -833,3 +835,20 @@ Carr, J. W., Pescuma, V. N., Furlan, M., Ktori, M., & Crepaldi, D. (2022). Algor
 of vertical drift in eye-tracking data. *Behavior Research Methods, 54*, 287–310.
 <https://doi.org/10.3758/s13428-021-01554-0> (implemented in the Python package `eyekit`)
 :::
+
+## Slides & code
+
+```{=html}
+<div class="qr-row qr-end">
+  <div class="qr-card">
+    <img src="assets/qr-slides.svg" alt="QR code for the slides">
+    <div class="qr-label">Slides</div>
+    <div class="qr-url"><a href="https://bernhardangele.github.io/toulouse-2026-eye-tracking-analysis-workshop/#/title-slide">bernhardangele.github.io/toulouse-2026-eye-tracking-analysis-workshop</a></div>
+  </div>
+  <div class="qr-card">
+    <img src="assets/qr-repo.svg" alt="QR code for the GitHub repository">
+    <div class="qr-label">Code &amp; data (GitHub)</div>
+    <div class="qr-url"><a href="https://github.com/bernhardangele/toulouse-2026-eye-tracking-analysis-workshop">github.com/bernhardangele/toulouse-2026-eye-tracking-analysis-workshop</a></div>
+  </div>
+</div>
+```

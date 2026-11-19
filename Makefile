@@ -9,7 +9,8 @@ EXPERIMENTS := reading boundary movingwindow vwp
 ASC_FILES   := $(foreach e,$(EXPERIMENTS),$(wildcard data/example_data/$(e)/subject-*.asc))
 CSV_FILES   := $(foreach e,$(EXPERIMENTS),$(wildcard data/example_data/$(e)/subject-*.csv))
 DERIVED     := data/example_data/derived/vwp/fixations.csv
-ASSETS      := assets/custom.scss assets/animations.js assets/gsap.min.js assets/scripts.html
+ASSETS      := assets/custom.scss assets/animations.js assets/gsap.min.js assets/scripts.html \
+               assets/title-slide.html assets/qr-slides.svg assets/qr-repo.svg
 
 .PHONY: all preview preprocess analysis scripts clean clean-all help
 

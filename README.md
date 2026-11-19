@@ -8,6 +8,9 @@ This workshop is the analysis companion to the
 [OpenSesame and PyGaze recording workshop](https://github.com/bernhardangele/eye-movement-experiments-with-opensesame).
 It covers the six conceptual analysis steps on simulated example data (`reading`, `boundary`, `movingwindow`, and `vwp`).
 
+- **Slides:** <https://bernhardangele.github.io/toulouse-2026-eye-tracking-analysis-workshop/#/title-slide>
+- **Repository:** <https://github.com/bernhardangele/toulouse-2026-eye-tracking-analysis-workshop>
+
 ## Files
 
 | Path | Purpose |
